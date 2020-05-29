@@ -3,4 +3,4 @@ FROM python:3
 WORKDIR /app
 COPY . /app/
 
-RUN pip install --no-cache -r package.txt
+RUN pip3 install --no-cache -r package.txt
